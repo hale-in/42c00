@@ -6,7 +6,7 @@
 /*   By: taeheeki <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/07 09:57:17 by taeheeki          #+#    #+#             */
-/*   Updated: 2021/03/07 19:42:21 by taeheeki         ###   ########.fr       */
+/*   Updated: 2021/03/07 19:51:10 by taeheeki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,10 +28,13 @@ void	ft_putnbr(int nb)
 		ft_putnbr(-(nb / 10));
 		ft_putchar(-(nb % 10));
 	}
-	else if (nb != 0)
+	else
 	{
-		ft_putnbr(nb / 10);
-		ft_putchar(nb % 10);
+		if (nb != 0)
+		{
+			ft_putnbr(nb / 10);
+			ft_putchar(nb % 10);
+		}
+		return ;
 	}
-	return ;
 }
