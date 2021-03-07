@@ -6,7 +6,7 @@
 /*   By: taeheeki <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/25 11:49:11 by taeheeki          #+#    #+#             */
-/*   Updated: 2021/03/07 10:01:51 by taeheeki         ###   ########.fr       */
+/*   Updated: 2021/03/07 11:58:47 by taeheeki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,10 +38,4 @@ void	ft_print_comb(void)
 		}
 		a++;
 	}
-}
-
-int		main(void)
-{
-	ft_print_comb();
-	return (0);
 }
