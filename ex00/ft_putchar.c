@@ -6,13 +6,13 @@
 /*   By: taeheeki <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/25 11:46:03 by taeheeki          #+#    #+#             */
-/*   Updated: 2021/03/07 10:30:50 by taeheeki         ###   ########.fr       */
+/*   Updated: 2021/03/07 15:31:11 by taeheeki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchat(char c)
+void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }

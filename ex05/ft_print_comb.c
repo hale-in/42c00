@@ -6,7 +6,7 @@
 /*   By: taeheeki <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/25 11:49:11 by taeheeki          #+#    #+#             */
-/*   Updated: 2021/03/07 11:58:47 by taeheeki         ###   ########.fr       */
+/*   Updated: 2021/03/07 15:32:28 by taeheeki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,10 +19,10 @@ void	ft_print_comb(void)
 	char c;
 
 	a = '0';
-	while (a < b)
+	while (a <= '7')
 	{
 		b = a + 1;
-		while (b < c)
+		while (b <= '8')
 		{
 			c = b + 1;
 			while (c <= '9')
